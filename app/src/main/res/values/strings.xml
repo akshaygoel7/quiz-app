@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz</string>
+
+    <string name="question_1">Ques : \nWhat is the name of the app?</string>
+    <string name="question_1_hint">App name</string>
+    <string name="question_2">Ques : \nWhat is the name of Latest version of Android?</string>
+    <string name="question_2_hint">Latest Android name</string>
+    <string name="question_3">Ques : \nWhat is the name of the first android version?</string>
+    <string name="question_3_hint">First android version</string>
+    <string name="question_4">Ques : \nWhat is the color of the app?</string>
+    <string name="question_4_hint">App Color</string>
+    <string name="question_5">Ques : \nWhat is the name of android app development software?</string>
+    <string name="question_5_hint">IDE name</string>
+</resources>
