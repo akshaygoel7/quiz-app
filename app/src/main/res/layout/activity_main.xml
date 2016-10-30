@@ -22,49 +22,49 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/question_1" />
+        android:text="@string/question_2" />
 
     <EditText
         android:id="@+id/question_2_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/question_1_hint" />
+        android:hint="@string/question_2_hint" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/question_1" />
+        android:text="@string/question_3" />
 
     <EditText
         android:id="@+id/question_3_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/question_1_hint" />
+        android:hint="@string/question_3_hint" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/question_1" />
+        android:text="@string/question_4" />
 
     <EditText
         android:id="@+id/question_4_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/question_1_hint" />
+        android:hint="@string/question_4_hint" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="@string/question_1" />
+        android:text="@string/question_5" />
 
     <EditText
         android:id="@+id/question_5_edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/question_1_hint" />
+        android:hint="@string/question_5_hint" />
 
     <Button
         android:id="@+id/submit_btn"
