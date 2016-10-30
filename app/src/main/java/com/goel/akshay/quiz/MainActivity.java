@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -32,23 +33,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         int point = 0;
         if (v == findViewById(R.id.submit_btn)) {
-            if (editText1.getText().toString().toLowerCase() == "quiz") {
+            if (editText1.getText().toString().equalsIgnoreCase("quiz")) {
                 point += 1;
             }
-            if (editText2.getText().toString().toLowerCase() == "nougat") {
+            if (editText2.getText().toString().equalsIgnoreCase("nougat")) {
                 point += 1;
             }
-            if (editText3.getText().toString().toLowerCase() == "donut") {
+            if (editText3.getText().toString().equalsIgnoreCase("donut")) {
                 point += 1;
             }
-            if (editText4.getText().toString().toLowerCase() == "green") {
+            if (editText4.getText().toString().equalsIgnoreCase("green")) {
                 point += 1;
             }
-            if (editText5.getText().toString().toLowerCase() == "android studio") {
+            if (editText5.getText().toString().equalsIgnoreCase("android studio")) {
                 point += 1;
             }
-            
 
+            Toast.makeText(this, "Your score : " + point + " out of 5", Toast.LENGTH_SHORT).show();
         }
 
     }
