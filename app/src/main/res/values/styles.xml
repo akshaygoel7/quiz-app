@@ -17,4 +17,9 @@
         <item name="android:paddingLeft">10dp</item>
     </style>
 
+    <style name="FullScreen">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
 </resources>
